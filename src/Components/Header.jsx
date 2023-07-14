@@ -7,8 +7,10 @@ import arrowDark from "../images/icon-arrow-dark.svg";
 import arrowLight from "../images/icon-arrow-light.svg";
 
 const Header = () => {
+  
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isDropdownOPen] = useState(false);
+
   return (
     <>
       <header className="absolute top-0 left-0 right-0 z-50 max-w-[69.5rem] mt-0 mx-auto flex gap-x-12 items-center px-5 md:px-7 h-[6.875rem] md:h-[10.625rem] text-white">
@@ -24,6 +26,7 @@ const Header = () => {
         {/**Hamburguer Menu */}
         {isMenuOpen ? (
           <button className="flex-shrink-0">
+
             <img
               src={IconClose}
               alt=""
@@ -32,6 +35,7 @@ const Header = () => {
                 setIsMenuOpen(false);
               }}
             />
+            
           </button>
         ) : (
           <button className="flex-shrink-0" aria-label="mobile menu">
@@ -115,7 +119,7 @@ const Header = () => {
               <li>
                 <button
                   type="button"
-                  className="font-[500] w-[124px] h-[40px] max-[768px]:bg-gradient-to-r from-very-light-red to-light-red  text-white md:w-[137px] md:h-[46px] rounded-[3rem] md:bg-white md:text-light-red duration-200 hover:bg-light-red-CTA hover:text-white"
+                  className="font-[500] w-[7.75rem] h-[2.5rem] max-[48rem]:bg-gradient-to-r from-very-light-red to-light-red  text-white md:w-[8.5625rem] md:h-[46px] rounded-[3rem] md:bg-white md:text-light-red duration-200 hover:bg-light-red-CTA hover:text-white"
                 >
                   Sign Up
                 </button>

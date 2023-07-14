@@ -6,7 +6,8 @@ const Hero = () => {
   return (
     <>
       <section className="relative h-[100vh] max-h-[32.6875rem] md:max-h-[37.5rem] bg-gradient-to-br from-very-light-red to-light-red grid place-content-center md:bg-gradient-to-r md:from-very-light-red md:to-light-red rounded-bl-[3.125rem] rounded-lg-[5.625rem] overflow-hidden">
-        <div>
+
+        <div className="absolute top-0 left-0 right-0">
           <img
             src={heroMobile}
             alt=""
@@ -18,6 +19,32 @@ const Hero = () => {
             alt=""
             className="scale-[2] md:translate-x-[13rem] md:translate-y-[8rem] lg:translate-x-[23rem] lg:translate-y-[27rem] hidden md:block"
           />
+        </div>
+
+        <div className="text-white text-center z-10 md:mx-10 md:mt-[1.8rem] lg:mt-[3rem]">
+          <h1 className="font-heading font-[600] text-[2.4rem] md:text-[3.2rem] lg:text-[3.4rem] min-[23.4375rem]:max-w-[23rem] md:max-w-[100%] leading-[1.2] mb4 md:mb-3 mx-auto px-2">
+            A modern publishing platform
+          </h1>
+
+          <p className="font-body font-[400] text-[1.1rem] md:text-[1.2rem]md:max-w-[100%] px-10 min-[23.4375rem]:max-w-[25rem]">
+            Grow your audience and build your online brand
+          </p>
+
+          <div className="mt-10 md:mt-12 flex justify-center gap-5">
+            <button
+              type="button"
+              className="font-[500] w-[7.75rem] h-[2.5rem]md:w-[8.5625rem] md:h-[2.875rem] rounded-[3rem] bg-white text-light-red duration-200 hover:bg-light-red-CTA hover:text-white"
+            >
+              Start for free
+            </button>
+
+            <button
+              type="button"
+              className="font-[500] w-[7.75rem] h-[40px] md:w-[8.5625rem] md:h-[2.875rem] border border-white border-solid rounded-[3rem] duration-200 hover:bg-white hover:text-light-red-CTA"
+            >
+              Learn more
+            </button>
+          </div>
         </div>
       </section>
     </>
