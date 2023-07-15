@@ -17,7 +17,7 @@ const Hero = () => {
           <img
             src={heroDesktop}
             alt=""
-            className="scale-[2] md:translate-x-[13rem] md:translate-y-[8rem] lg:translate-x-[23rem] lg:translate-y-[27rem] hidden md:block"
+            className="scale-[2] md:translate-x-[13rem] md:-translate-y-[8rem] lg:translate-x-[23rem] lg:-translate-y-[27rem] hidden md:block"
           />
         </div>
 
