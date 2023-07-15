@@ -1,5 +1,7 @@
 import Hero from "./Components/Hero";
 import Header from "./Components/Header";
+import ShowCaseOne from "./Components/showCaseOne";
+import ShowCaseTwo from "./Components/showCaseTwo";
 
 const Home = () => {
   return (
@@ -7,6 +9,8 @@ const Home = () => {
       <Header />
       <main>
         <Hero />
+        <ShowCaseOne />
+        <ShowCaseTwo />
       </main>
     </>
   );
