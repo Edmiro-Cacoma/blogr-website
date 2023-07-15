@@ -20,7 +20,7 @@ Your users should be able to:
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
-  - [Built with](#built-with)
+- [Built with](#built-with)
 - [Author](#author)
 
   ### Screenshot
@@ -28,7 +28,7 @@ Your users should be able to:
   ![blogrMobile](https://github.com/Edmiro-Cacoma/blogr-website/assets/62661230/2cd47652-811d-4690-b6fc-b3323072b7d0)
 
   ### Links
-  - Solution URL: (https://bit.ly/3JTp9JF)
+- Solution URL: (https://bit.ly/44MNkRI)
 - Live Site URL:(https://bit.ly/3K146oi)
 
   ### Built with
